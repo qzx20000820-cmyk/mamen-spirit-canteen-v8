@@ -1,0 +1,25 @@
+{
+  "name": "mamen-public-v8",
+  "version": "8.1.0-rc.1",
+  "private": true,
+  "type": "module",
+  "description": "手机 H5 隐藏成就游戏；原创生成食品摄影、通用名称与模拟金额",
+  "license": "MIT",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "preview": "node tools/preview.mjs",
+    "test": "node tests/regression.cjs && node tests/catalog.cjs",
+    "audit": "node tools/audit.mjs",
+    "test:mcp": "node --test tools/menu-explorer/explorer.test.mjs",
+    "release": "node tools/package-release.mjs",
+    "test:public": "node tests/public-release.cjs",
+    "explorer:setup": "npm --prefix tools/menu-explorer ci",
+    "explore:menu": "node tools/menu-explorer/cli.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

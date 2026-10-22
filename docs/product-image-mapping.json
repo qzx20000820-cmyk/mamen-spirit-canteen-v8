@@ -1,0 +1,281 @@
+[
+  {
+    "slot": "商品",
+    "id": "80001",
+    "name": "家常牛肉汉堡",
+    "image": "assets/photography/beef-burger.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80002",
+    "name": "脆皮鸡肉汉堡",
+    "image": "assets/photography/chicken-burger.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80003",
+    "name": "双层牛肉汉堡",
+    "image": "assets/photography/double-beef-burger.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80004",
+    "name": "鱼排汉堡",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80005",
+    "name": "香烤鸡肉汉堡",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80006",
+    "name": "猪肉蛋松饼堡",
+    "image": "assets/photography/breakfast-muffin.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80007",
+    "name": "芝士脆鸡汉堡",
+    "image": "assets/photography/cheese-chicken-burger.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80011",
+    "name": "香脆鸡块",
+    "image": "assets/photography/chicken-nuggets.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80012",
+    "name": "双份鸡块",
+    "image": "assets/photography/chicken-nuggets.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80013",
+    "name": "香酥鸡腿",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80014",
+    "name": "蘸酱鸡柳",
+    "image": "assets/photography/sauced-chicken.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80015",
+    "name": "鸡块薯饼拼盒",
+    "image": "assets/photography/snack-duo.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80021",
+    "name": "中份薯条",
+    "image": "assets/photography/fries.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80022",
+    "name": "大份薯条",
+    "image": "assets/photography/fries.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80023",
+    "name": "土豆小饼",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80031",
+    "name": "香草冰淇淋",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80032",
+    "name": "巧克力冰淇淋",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80033",
+    "name": "温热苹果派",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80041",
+    "name": "苹果片",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80042",
+    "name": "玉米杯",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80043",
+    "name": "大杯玉米",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80051",
+    "name": "矿泉水",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80052",
+    "name": "冰可乐",
+    "image": "assets/photography/cola.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80053",
+    "name": "大杯可乐",
+    "image": "assets/photography/cola.webp",
+    "type": "photography",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80054",
+    "name": "黑咖啡",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "80055",
+    "name": "橙味果汁",
+    "image": "",
+    "type": "name-only",
+    "detailStatus": "独立模拟单品",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "81001",
+    "name": "自在汉堡套餐",
+    "image": "assets/photography/double-beef-burger.webp",
+    "type": "main-item-photography",
+    "detailStatus": "独立模拟套餐",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "81002",
+    "name": "脆鸡午后套餐",
+    "image": "assets/photography/chicken-burger.webp",
+    "type": "main-item-photography",
+    "detailStatus": "独立模拟套餐",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "81003",
+    "name": "双人分享套餐",
+    "image": "assets/photography/beef-burger.webp",
+    "type": "main-item-photography",
+    "detailStatus": "独立模拟套餐",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "81004",
+    "name": "小食组合套餐",
+    "image": "assets/photography/chicken-nuggets.webp",
+    "type": "main-item-photography",
+    "detailStatus": "独立模拟套餐",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  },
+  {
+    "slot": "商品",
+    "id": "81005",
+    "name": "松饼早餐套餐",
+    "image": "assets/photography/breakfast-muffin.webp",
+    "type": "main-item-photography",
+    "detailStatus": "独立模拟套餐",
+    "note": "原创游戏数据；照片仅示意食品外观"
+  }
+]

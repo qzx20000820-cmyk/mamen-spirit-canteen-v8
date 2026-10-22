@@ -1,0 +1,11 @@
+{
+  "origin": "Independently authored fictional game data",
+  "historicalMcpSnapshotsUsedInPublicRuntime": false,
+  "officialIdsIncluded": false,
+  "originalPricesIncluded": false,
+  "historicalMealStructuresIncluded": false,
+  "products": 31,
+  "categories": 9,
+  "meals": 5,
+  "license": "MIT for independently authored data, no trademark grant"
+}

@@ -1,0 +1,261 @@
+[
+  {
+    "id": "fries",
+    "name": "薯门永存",
+    "rarity": "B",
+    "rule": "购物车同时有3份薯条",
+    "when": "(c)=>live(c.event)&&count(c,'fries')>=3"
+  },
+  {
+    "id": "heretic",
+    "name": "麦门邪修",
+    "rarity": "A",
+    "rule": "购物车同时有薯条和冰淇淋",
+    "when": "c=>live(c.event)&&has(c,'fries')&&has(c,'ice')"
+  },
+  {
+    "id": "diet",
+    "name": "薛定谔的自律",
+    "rarity": "A",
+    "rule": "苹果片与炸鸡类餐品同时在购物车",
+    "when": "c=>live(c.event)&&has(c,'apple')&&has(c,'chicken')"
+  },
+  {
+    "id": "miser",
+    "name": "葛朗台精神继承人",
+    "rarity": "SR",
+    "rule": "清空价值至少¥300的购物车",
+    "when": "c=>c.event==='clear'&&c.before>=30000"
+  },
+  {
+    "id": "cola",
+    "name": "液体资产管理大师",
+    "rarity": "B",
+    "rule": "本轮累计加购至少4份可乐（含套餐）",
+    "when": "c=>c.event==='add'&&c.stats.cola>=4"
+  },
+  {
+    "id": "quantum",
+    "name": "不是哥们，你到底买不买？",
+    "rarity": "B",
+    "rule": "本轮加减方向切换6次",
+    "when": "c=>live(c.event)&&c.stats.flips>=6"
+  },
+  {
+    "id": "custom",
+    "name": "这个套餐是你亲生的吗？",
+    "rarity": "B",
+    "rule": "本轮替换套餐选项3次",
+    "when": "c=>c.event==='swap'&&c.stats.swaps>=3"
+  },
+  {
+    "id": "recall",
+    "name": "当我没说",
+    "rarity": "B",
+    "rule": "本轮减购至少3次，并通过减购把购物车减到空",
+    "when": "c=>c.event==='minus'&&c.units===0&&c.stats.removes>=3"
+  },
+  {
+    "id": "nobel",
+    "name": "精神诺贝尔经济学奖",
+    "rarity": "SR",
+    "rule": "本轮加购至少5次、减购至少3次、方向切换至少4次后手动清空",
+    "when": "c=>c.event==='clear'&&c.stats.adds>=5&&c.stats.removes>=3&&c.stats.flips>=4"
+  },
+  {
+    "id": "godot",
+    "name": "不是，还没想好吗？",
+    "rarity": "S",
+    "rule": "订单确认页累计60秒有效停留，至少3次间隔2秒的互动；只计可见且近15秒内有互动的时间",
+    "when": "c=>c.event==='checkoutTime'&&c.stats.checkoutSeconds>=60&&c.stats.checkoutInteractions>=3&&c.units>0"
+  },
+  {
+    "id": "purist",
+    "name": "除了汉堡，谁都别来",
+    "rarity": "A",
+    "rule": "购物车仅有汉堡，且合计至少3份；不将含配餐的套餐视为纯汉堡",
+    "when": "c=>live(c.event)&&only(c,'burger')&&count(c,'burger')>=3"
+  },
+  {
+    "id": "archaeologist",
+    "name": "鸡块研究生",
+    "rarity": "B",
+    "rule": "本轮查看或加购鸡块类商品累计5次，并接触至少2个不同商品编号",
+    "when": "c=>['view','add','swap'].includes(c.event)&&c.stats.nuggetVisits>=5&&c.stats.nuggetIds.length>=2"
+  },
+  {
+    "id": "traitor",
+    "name": "麦门叛徒",
+    "rarity": "S",
+    "rule": "本轮3次将加购后的购物车逐份减至空；手动清空与结算不算",
+    "when": "c=>c.event==='minus'&&c.units===0&&c.stats.emptyCycles>=3"
+  },
+  {
+    "id": "threebody",
+    "name": "汉堡开会没叫你",
+    "rarity": "A",
+    "rule": "购物车同时有至少3个不同编号的汉堡，含已知套餐中实际选中的汉堡",
+    "when": "c=>live(c.event)&&distinct(c,'burger')>=3"
+  },
+  {
+    "id": "stabilizer",
+    "name": "成年人的情绪稳定器",
+    "rarity": "A",
+    "rule": "购物车同时有咖啡和冰淇淋类商品，含已知套餐的实际选项",
+    "when": "c=>live(c.event)&&has(c,'coffee')&&has(c,'ice')"
+  },
+  {
+    "id": "copy",
+    "name": "复制粘贴型人格",
+    "rarity": "B",
+    "rule": "连续5次加购同一编号且同一配置的商品；减购、清空、换配、结算会打断",
+    "when": "c=>c.event==='add'&&c.stats.streak>=5"
+  },
+  {
+    "id": "collector",
+    "name": "你搁这儿集邮呢？",
+    "rarity": "S",
+    "rule": "购物车同时有至少5个不同编号的汉堡",
+    "when": "c=>live(c.event)&&distinct(c,'burger')>=5"
+  },
+  {
+    "id": "fishbear",
+    "name": "鱼与熊掌我都要",
+    "rarity": "A",
+    "rule": "购物车同时有实际识别的鱼肉汉堡和牛肉汉堡",
+    "when": "c=>live(c.event)&&c.components.some(isFish)&&c.components.some(isBeef)"
+  },
+  {
+    "id": "mengmu",
+    "name": "搬家比点餐还勤",
+    "rarity": "S",
+    "rule": "本轮完成至少3次地址切换，切换目标包含3个不同已选地址；点击当前地址不算",
+    "when": "c=>c.event==='address'&&(c.world?.addressSwitches||0)>=3&&(c.world?.addressIds.length||0)>=3"
+  },
+  {
+    "id": "schrodinger",
+    "name": "复合了，又分了",
+    "rarity": "B",
+    "rule": "本轮同一商品编号完成2次从零加购再通过减购删至零的有效来回；清空与结算不算删除",
+    "when": "c=>c.event==='minus'&&c.foodAfter===0&&(c.world?.cycles?.[c.food]?.count||0)>=2"
+  },
+  {
+    "id": "merit",
+    "name": "麦门养生局",
+    "rarity": "A",
+    "rule": "购物车同时有苹果片、玉米杯和矿泉水",
+    "when": "c=>live(c.event)&&count(c,'apple')>0&&c.components.some(isCorn)&&count(c,'water')>0"
+  },
+  {
+    "id": "united",
+    "name": "金拱门联合国",
+    "rarity": "S",
+    "rule": "购物车同时有汉堡、炸鸡、小食、甜品、饮品5种真实食物大类；展示栏目不计类别",
+    "when": "c=>live(c.event)&&families(c).length>=5"
+  },
+  {
+    "id": "menuarchaeologist",
+    "name": "你把菜单翻烂了？",
+    "rarity": "B",
+    "rule": "本轮实际浏览全部可见菜单分类；每个分类只计一次",
+    "when": "c=>c.event==='category'&&c.categoryCount>0&&(c.world?.categories.length||0)>=c.categoryCount"
+  },
+  {
+    "id": "marketCrash",
+    "name": "精神股市熔断",
+    "rarity": "SSR",
+    "rule": "60秒内由至少¥200的实际金额通过主动减购或清空下降至少90%；不必减空",
+    "when": "c=>['minus','clear'].includes(c.event)&&c.crashTriggered===true"
+  },
+  {
+    "id": "philosopher",
+    "name": "看一眼怎么了？",
+    "rarity": "S",
+    "rule": "本轮连续3次打开同一真实商品详情并关闭，每次均未加购该商品；查看其他商品或详情内加购会打断",
+    "when": "c=>c.event==='detailClose'&&(c.world?.detailRun.count||0)>=3"
+  },
+  {
+    "id": "emperor",
+    "name": "皇帝的新购物车",
+    "rarity": "B",
+    "rule": "本轮从未成功加购，分别打开空购物车3次；同一次停留或反复点击已打开面板不算",
+    "when": "c=>c.event==='cartOpen'&&!c.world?.everAdded&&(c.world?.emptyCartOpens||0)>=3"
+  },
+  {
+    "id": "newton",
+    "name": "忙了半天，白忙了",
+    "rarity": "A",
+    "rule": "同一商品连续至少3次加购与3次减购后回到非零起始数量；期间不减至零，与薛定谔来回区分",
+    "when": "c=>live(c.event)&&c.world?.motion?.food===c.food&&c.world.motion.baseline>0&&!c.world.motion.touchedZero&&c.world.motion.adds>=3&&c.world.motion.minus>=3&&c.foodAfter===c.world.motion.baseline"
+  },
+  {
+    "id": "seaking",
+    "name": "麦门海王",
+    "rarity": "SR",
+    "rule": "本轮实际加购过至少3种汉堡，主动减购至完全删除其中至少2种，当前只保留其中1种",
+    "when": "c=>c.event==='minus'&&(c.world?.burgerAdded.length||0)>=3&&(c.world?.burgerDeleted.length||0)>=2&&distinct(c,'burger')===1&&c.components.filter(x=>hasTag(x,'burger')).every(x=>c.world.burgerAdded.includes(String(x.code)))"
+  },
+  {
+    "id": "ipo",
+    "name": "你公司上市了？",
+    "rarity": "SR",
+    "rule": "跨多轮累计完成5笔游戏内结算；刷新与查看订单不重复计数",
+    "when": "c=>c.event==='pay'&&(c.career?.payments||0)>=5"
+  },
+  {
+    "id": "romanceFraud",
+    "name": "汉堡情感诈骗犯",
+    "rarity": "SSR",
+    "rule": "本轮同一汉堡完成3次从零加购再逐份删至零，按顺序走完6段情感剧情",
+    "when": "c=>c.event==='minus'&&(c.world?.relationships?.[c.food]?.stage||0)>=6"
+  },
+  {
+    "id": "colaChair",
+    "name": "液体资产终身董事长",
+    "rarity": "S",
+    "rule": "本轮累计实际加购5份可乐（含已知套餐实际选项），走完5段董事会剧情",
+    "when": "c=>c.event==='add'&&c.stats.cola>=5&&(c.world?.colaStage||0)>=5"
+  },
+  {
+    "id": "initiate",
+    "name": "麦门初代弟子",
+    "rarity": "C",
+    "rule": "第一次成功加购任意商品；旧玩家升级后下一次成功加购也可领取",
+    "when": "c=>c.event==='add'"
+  },
+  {
+    "id": "friesNovice",
+    "name": "薯门见习生",
+    "rarity": "C",
+    "rule": "第一次实际加购薯条，含已知套餐实际选择的薯条",
+    "when": "c=>c.event==='add'&&quantity({components:c.addedComponents||[]},'fries')>0"
+  },
+  {
+    "id": "colaRegistrar",
+    "name": "液体资产登记员",
+    "rarity": "C",
+    "rule": "第一次实际加购可乐，含已知套餐实际选择的可乐",
+    "when": "c=>c.event==='add'&&quantity({components:c.addedComponents||[]},'cola')>0"
+  },
+  {
+    "id": "cornGodfather",
+    "name": "玉米教父",
+    "rarity": "C",
+    "rule": "第一次实际加购玉米杯，含已知套餐实际选择的玉米",
+    "when": "c=>c.event==='add'&&(c.addedComponents||[]).some(isCorn)"
+  },
+  {
+    "id": "appleWellness",
+    "name": "来麦当劳养生来了？",
+    "rarity": "C",
+    "rule": "第一次实际加购苹果片",
+    "when": "c=>c.event==='add'&&quantity({components:c.addedComponents||[]},'apple')>0"
+  },
+  {
+    "id": "heartIntern",
+    "name": "刚爱上就分手",
+    "rarity": "C",
+    "rule": "第一次主动成功减购任意商品；清空与结算不算",
+    "when": "c=>c.event==='minus'"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "version": "8.1.0-rc.1",
+  "testedOn": "2026-10-22",
+  "browserChecks": 228,
+  "catalogChecks": 136,
+  "publicChecks": 29,
+  "total": 393,
+  "achievementCasesPerEngine": 37,
+  "engines": [
+    "Chromium",
+    "WebKit"
+  ],
+  "physicalPhoneTested": false,
+  "publicUploaded": false,
+  "githubPushed": false,
+  "issueSubmitted": false,
+  "independentNpmCi": true,
+  "dependencyInstallSource": "verified npm cache; fresh node_modules",
+  "npmVersion": "10.9.4",
+  "nodeVersion": "24.19.0",
+  "independentBuild": true,
+  "independentStaticFiles": 31,
+  "uiStylesByteIdentical": true,
+  "allElevenPhotosByteIdentical": true,
+  "v7ProtectedFiles": 211,
+  "historicalMenuPackaged": false,
+  "negativeCatalogReleaseGatePassed": true,
+  "h5LiveMcpCalls": 0,
+  "explorerStatus": "MENU_EXPLORER_STATUS.json; separate developer-local module",
+  "explorerRealBusinessSuccesses": 2,
+  "explorerCompletedAnalysisRuns": 1,
+  "explorerOfflineUnitTests": 12
+}

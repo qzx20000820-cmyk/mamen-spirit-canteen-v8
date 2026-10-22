@@ -1,0 +1,16 @@
+{
+  "origin": "authored fictional game design",
+  "version": "8.1.0-rc.1",
+  "products": 31,
+  "singleFoods": 26,
+  "mealDesigns": 5,
+  "pricePolicy": "Integer game amounts chosen independently; not rescaled, encrypted or renamed source data.",
+  "designBasis": [
+    "7 distinct burger types for discovery",
+    "2 nugget records for exploration",
+    "fries, ice, apple, corn, water, cola and coffee support existing achievements",
+    "5 newly composed configurable game meals",
+    "No official-ID translation table is distributed."
+  ],
+  "license": "Project-authored game data under MIT; brand rights excluded."
+}

@@ -1,0 +1,9 @@
+files,item,basis,result,action
+data/menu.json;data/meals.json;data/catalog-design.json;tests/catalog-contract.json;docs/product-image-mapping.*,独立模拟数据,本轮从游戏需求重新设计31餐品与5套配置，MIT范围,原数据已排除,不再声明为MCP结果；旧快照及ID映射仅私有备份
+assets/photography/*.webp,11张原创生成摄影,生成记录、SHA及平台输出条款，项目素材许可,有来源依据，非排他版权保证,不声称官方图或自摄；保留记录
+src/semantics.js,食品识别,基于本版显式标签，不含官方编码,原识别码表已排除,测试全部37成就
+src/copy.js;src/achievements.js;src/world.js;src/rarity.js,原创幽默文案与品牌语境,项目原创，高风险表达已定点修订,部分品牌指称及网络梗仍待主办方判断,不将非官方声明当作商标许可；必要时授权或最小称呼修改
+src/ui.css;favicon.svg;src/*.js,UI与代码,项目独立代码MIT；系统字体不打包,原UI及图像保护,不引入官方Logo
+package-lock.json;licenses/*,依赖,Playwright Apache-2.0及NOTICE，fsevents MIT,许可证已保留,不分发node_modules或浏览器
+CONTEST_DECLARATION.md,官方原件,赛事明确要求原样使用；SHA匹配,文件原样，资格不因此通过,作者最终确认事实
+MCP_INTEGRATION.md;workbuddy.md;docs/mcp-evidence-summary.json,历史调用证明,真实历史审计摘要，仅元数据，不含返回菜单,本地探索器2次真实业务成功，第二次完整分析通过；H5无运行时调用,见MENU_EXPLORER_STATUS.json；整体资格由主办方判断，不虚构专项资格

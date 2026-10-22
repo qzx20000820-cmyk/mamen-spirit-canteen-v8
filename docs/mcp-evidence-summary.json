@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "version": "V8 public candidate",
+  "publicUploadPerformed": false,
+  "contestApplicationSubmitted": false,
+  "newMcpCallsPerformedForV8": false,
+  "browserUsesLiveMcp": false,
+  "historicalSource": {
+    "context": "Early data preparation in a separate WorkBuddy project; later inherited by the independently developed Codex game.",
+    "privateEvidenceLocation": "Original evidence retained privately on the developer computer; no system path or source log is distributed.",
+    "originalSessionSha256": "4e9f1087a1c2f1c8171c242eadfcfdc555d46f50c5f3e9f59b3e01fcef93e3f5",
+    "originalSessionIncludedInRepository": false,
+    "auditMethod": "Read original invocation and matching response records; parse business response status and compare inherited source fields. No credential configuration was opened and no new API call was made."
+  },
+  "server": {
+    "url": "https://mcp.mcd.cn",
+    "protocol": "Streamable HTTP",
+    "officialDocumentation": "https://github.com/M-China/mcd-mcp-server/blob/main/README.md"
+  },
+  "totals": {
+    "uniqueTools": 4,
+    "invocations": 14,
+    "businessSuccesses": 13,
+    "toolErrors": 1
+  },
+  "records": [
+    {
+      "tool": "query-nearby-stores",
+      "invokedAt": "2026-10-11T14:26:19.391+08:00",
+      "responseRecordedAt": "2026-10-11T14:26:19.933+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 59,
+      "privateSourceResponseLine": 60
+    },
+    {
+      "tool": "query-meals",
+      "invokedAt": "2026-10-11T14:26:39.382+08:00",
+      "responseRecordedAt": "2026-10-11T14:26:40.164+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 63,
+      "privateSourceResponseLine": 64
+    },
+    {
+      "tool": "query-meal-detail",
+      "invokedAt": "2026-10-11T14:26:51.118+08:00",
+      "responseRecordedAt": "2026-10-11T14:26:51.485+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 67,
+      "privateSourceResponseLine": 68
+    },
+    {
+      "tool": "calculate-price",
+      "invokedAt": "2026-10-11T14:27:03.954+08:00",
+      "responseRecordedAt": "2026-10-11T14:27:04.388+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 71,
+      "privateSourceResponseLine": 74
+    },
+    {
+      "tool": "calculate-price",
+      "invokedAt": "2026-10-11T14:27:03.957+08:00",
+      "responseRecordedAt": "2026-10-11T14:27:04.397+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 72,
+      "privateSourceResponseLine": 75
+    },
+    {
+      "tool": "calculate-price",
+      "invokedAt": "2026-10-11T14:27:03.958+08:00",
+      "responseRecordedAt": "2026-10-11T14:27:04.400+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 73,
+      "privateSourceResponseLine": 76
+    },
+    {
+      "tool": "query-meals",
+      "invokedAt": "2026-10-11T14:56:47.165+08:00",
+      "responseRecordedAt": "2026-10-11T14:56:56.966+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 118,
+      "privateSourceResponseLine": 122
+    },
+    {
+      "tool": "query-meal-detail",
+      "invokedAt": "2026-10-11T16:41:19.644+08:00",
+      "responseRecordedAt": "2026-10-11T16:41:25.779+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 647,
+      "privateSourceResponseLine": 649
+    },
+    {
+      "tool": "query-meal-detail",
+      "invokedAt": "2026-10-11T16:41:19.645+08:00",
+      "responseRecordedAt": "2026-10-11T16:41:25.789+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 648,
+      "privateSourceResponseLine": 650
+    },
+    {
+      "tool": "query-meal-detail",
+      "invokedAt": "2026-10-11T16:42:03.976+08:00",
+      "responseRecordedAt": "2026-10-11T16:42:08.406+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 653,
+      "privateSourceResponseLine": 658
+    },
+    {
+      "tool": "query-meal-detail",
+      "invokedAt": "2026-10-11T16:42:03.979+08:00",
+      "responseRecordedAt": "2026-10-11T16:42:08.416+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 654,
+      "privateSourceResponseLine": 659
+    },
+    {
+      "tool": "query-meal-detail",
+      "invokedAt": "2026-10-11T16:42:03.980+08:00",
+      "responseRecordedAt": "2026-10-11T16:42:08.421+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 655,
+      "privateSourceResponseLine": 660
+    },
+    {
+      "tool": "query-meal-detail",
+      "invokedAt": "2026-10-11T16:42:03.982+08:00",
+      "responseRecordedAt": "2026-10-11T16:42:08.427+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": null,
+      "outcome": "tool-error",
+      "privateSourceCallLine": 657,
+      "privateSourceResponseLine": 661
+    },
+    {
+      "tool": "query-meal-detail",
+      "invokedAt": "2026-10-11T16:43:10.060+08:00",
+      "responseRecordedAt": "2026-10-11T16:43:17.034+08:00",
+      "clientResultStatus": "completed",
+      "businessCode": 200,
+      "outcome": "business-success",
+      "privateSourceCallLine": 664,
+      "privateSourceResponseLine": 666
+    }
+  ],
+  "publicVersionDataPolicy": {
+    "origin": "independently authored fictional catalog",
+    "historicalSnapshotFieldsIncluded": false,
+    "officialInternalIdsIncluded": false,
+    "historicalPricesIncluded": false,
+    "historicalMealStructuresIncluded": false,
+    "officialPhotoFilesIncluded": false,
+    "officialPhotoLinksIncluded": false,
+    "rawConversationExportIncluded": false
+  },
+  "eligibility": {
+    "status": "requires-organizer-review",
+    "conclusion": "Historical source evidence only. Current project now has a separately verified developer-local official SDK explorer; see MENU_EXPLORER_STATUS.json. H5 does not import historical or new raw menu data. Organizer retains qualification judgment.",
+    "minimumFurtherEvidencePlan": "No further live calls in this phase. Do not substitute simulated responses or retained unused code for actual tool usage."
+  },
+  "excludedFromSummary": [
+    "credentials",
+    "raw responses",
+    "personal information",
+    "private system paths",
+    "original product image URLs",
+    "old store data",
+    "original product marketing copy"
+  ],
+  "officialSources": {
+    "contestRules": "https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/activityGuidelines.md",
+    "requiredFiles": "https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/README.md",
+    "declaration": "https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/CONTEST_DECLARATION.md"
+  },
+  "currentLocalModuleEvidence": "MENU_EXPLORER_STATUS.json"
+}

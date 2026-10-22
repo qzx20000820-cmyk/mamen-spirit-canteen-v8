@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "version": "8.1.0-rc.1",
+    "source": "Independently authored fictional game catalog; no MCP response fields or official product identifiers.",
+    "notice": "独立模拟菜单，全部为游戏金额，不对应官方售价或供应。",
+    "displayStore": "麦门精神食堂 · 线上店"
+  },
+  "categories": [
+    {
+      "id": "renqi",
+      "name": "人气热卖",
+      "items": [
+        {
+          "c": "80015",
+          "n": "鸡块薯饼拼盒",
+          "p": 20,
+          "img": "assets/photography/snack-duo.webp",
+          "t": [
+            "chicken",
+            "nugget"
+          ],
+          "family": "chicken",
+          "combo": false
+        },
+        {
+          "c": "81002",
+          "n": "脆鸡午后套餐",
+          "p": 29,
+          "img": "assets/photography/chicken-burger.webp",
+          "t": [
+            "独立模拟搭配"
+          ],
+          "family": null,
+          "combo": true
+        },
+        {
+          "c": "80003",
+          "n": "双层牛肉汉堡",
+          "p": 27,
+          "img": "assets/photography/double-beef-burger.webp",
+          "t": [
+            "burger",
+            "beef"
+          ],
+          "family": "burger",
+          "combo": false
+        },
+        {
+          "c": "80006",
+          "n": "猪肉蛋松饼堡",
+          "p": 18,
+          "img": "assets/photography/breakfast-muffin.webp",
+          "t": [
+            "burger"
+          ],
+          "family": "burger",
+          "combo": false
+        },
+        {
+          "c": "80014",
+          "n": "蘸酱鸡柳",
+          "p": 16,
+          "img": "assets/photography/sauced-chicken.webp",
+          "t": [
+            "chicken"
+          ],
+          "family": "chicken",
+          "combo": false
+        },
+        {
+          "c": "81001",
+          "n": "自在汉堡套餐",
+          "p": 31,
+          "img": "assets/photography/double-beef-burger.webp",
+          "t": [
+            "独立模拟搭配"
+          ],
+          "family": null,
+          "combo": true
+        }
+      ]
+    },
+    {
+      "id": "danren",
+      "name": "汉堡与套餐",
+      "items": [
+        {
+          "c": "81001",
+          "n": "自在汉堡套餐",
+          "p": 31,
+          "img": "assets/photography/double-beef-burger.webp",
+          "t": [
+            "独立模拟搭配"
+          ],
+          "family": null,
+          "combo": true
+        },
+        {
+          "c": "81002",
+          "n": "脆鸡午后套餐",
+          "p": 29,
+          "img": "assets/photography/chicken-burger.webp",
+          "t": [
+            "独立模拟搭配"
+          ],
+          "family": null,
+          "combo": true
+        },
+        {
+          "c": "81005",
+          "n": "松饼早餐套餐",
+          "p": 25,
+          "img": "assets/photography/breakfast-muffin.webp",
+          "t": [
+            "独立模拟搭配"
+          ],
+          "family": null,
+          "combo": true
+        }
+      ]
+    },
+    {
+      "id": "jwb",
+      "name": "牛肉与鱼排",
+      "items": [
+        {
+          "c": "80001",
+          "n": "家常牛肉汉堡",
+          "p": 19,
+          "img": "assets/photography/beef-burger.webp",
+          "t": [
+            "burger",
+            "beef"
+          ],
+          "family": "burger",
+          "combo": false
+        },
+        {
+          "c": "80003",
+          "n": "双层牛肉汉堡",
+          "p": 27,
+          "img": "assets/photography/double-beef-burger.webp",
+          "t": [
+            "burger",
+            "beef"
+          ],
+          "family": "burger",
+          "combo": false
+        },
+        {
+          "c": "80004",
+          "n": "鱼排汉堡",
+          "p": 22,
+          "img": "",
+          "t": [
+            "burger",
+            "fish"
+          ],
+          "family": "burger",
+          "combo": false
+        }
+      ]
+    },
+    {
+      "id": "jirou",
+      "name": "鸡肉与早餐",
+      "items": [
+        {
+          "c": "80002",
+          "n": "脆皮鸡肉汉堡",
+          "p": 21,
+          "img": "assets/photography/chicken-burger.webp",
+          "t": [
+            "burger"
+          ],
+          "family": "burger",
+          "combo": false
+        },
+        {
+          "c": "80005",
+          "n": "香烤鸡肉汉堡",
+          "p": 23,
+          "img": "",
+          "t": [
+            "burger"
+          ],
+          "family": "burger",
+          "combo": false
+        },
+        {
+          "c": "80007",
+          "n": "芝士脆鸡汉堡",
+          "p": 25,
+          "img": "assets/photography/cheese-chicken-burger.webp",
+          "t": [
+            "burger"
+          ],
+          "family": "burger",
+          "combo": false
+        },
+        {
+          "c": "80006",
+          "n": "猪肉蛋松饼堡",
+          "p": 18,
+          "img": "assets/photography/breakfast-muffin.webp",
+          "t": [
+            "burger"
+          ],
+          "family": "burger",
+          "combo": false
+        }
+      ]
+    },
+    {
+      "id": "xiaoshi",
+      "name": "小食与分享",
+      "items": [
+        {
+          "c": "81003",
+          "n": "双人分享套餐",
+          "p": 63,
+          "img": "assets/photography/beef-burger.webp",
+          "t": [
+            "独立模拟搭配"
+          ],
+          "family": null,
+          "combo": true
+        },
+        {
+          "c": "81004",
+          "n": "小食组合套餐",
+          "p": 26,
+          "img": "assets/photography/chicken-nuggets.webp",
+          "t": [
+            "独立模拟搭配"
+          ],
+          "family": null,
+          "combo": true
+        },
+        {
+          "c": "80021",
+          "n": "中份薯条",
+          "p": 12,
+          "img": "assets/photography/fries.webp",
+          "t": [
+            "fries"
+          ],
+          "family": "snack",
+          "combo": false
+        },
+        {
+          "c": "80022",
+          "n": "大份薯条",
+          "p": 15,
+          "img": "assets/photography/fries.webp",
+          "t": [
+            "fries"
+          ],
+          "family": "snack",
+          "combo": false
+        },
+        {
+          "c": "80023",
+          "n": "土豆小饼",
+          "p": 9,
+          "img": "",
+          "t": [],
+          "family": "snack",
+          "combo": false
+        }
+      ]
+    },
+    {
+      "id": "zhaji",
+      "name": "香脆炸物",
+      "items": [
+        {
+          "c": "80011",
+          "n": "香脆鸡块",
+          "p": 13,
+          "img": "assets/photography/chicken-nuggets.webp",
+          "t": [
+            "chicken",
+            "nugget"
+          ],
+          "family": "chicken",
+          "combo": false
+        },
+        {
+          "c": "80012",
+          "n": "双份鸡块",
+          "p": 24,
+          "img": "assets/photography/chicken-nuggets.webp",
+          "t": [
+            "chicken",
+            "nugget"
+          ],
+          "family": "chicken",
+          "combo": false
+        },
+        {
+          "c": "80013",
+          "n": "香酥鸡腿",
+          "p": 17,
+          "img": "",
+          "t": [
+            "chicken"
+          ],
+          "family": "chicken",
+          "combo": false
+        },
+        {
+          "c": "80014",
+          "n": "蘸酱鸡柳",
+          "p": 16,
+          "img": "assets/photography/sauced-chicken.webp",
+          "t": [
+            "chicken"
+          ],
+          "family": "chicken",
+          "combo": false
+        },
+        {
+          "c": "80015",
+          "n": "鸡块薯饼拼盒",
+          "p": 20,
+          "img": "assets/photography/snack-duo.webp",
+          "t": [
+            "chicken",
+            "nugget"
+          ],
+          "family": "chicken",
+          "combo": false
+        }
+      ]
+    },
+    {
+      "id": "qingshi",
+      "name": "果蔬小食",
+      "items": [
+        {
+          "c": "80041",
+          "n": "苹果片",
+          "p": 6,
+          "img": "",
+          "t": [
+            "apple"
+          ],
+          "family": "snack",
+          "combo": false
+        },
+        {
+          "c": "80042",
+          "n": "玉米杯",
+          "p": 8,
+          "img": "",
+          "t": [
+            "corn"
+          ],
+          "family": "snack",
+          "combo": false
+        },
+        {
+          "c": "80043",
+          "n": "大杯玉米",
+          "p": 11,
+          "img": "",
+          "t": [
+            "corn"
+          ],
+          "family": "snack",
+          "combo": false
+        }
+      ]
+    },
+    {
+      "id": "tianpin",
+      "name": "甜品时刻",
+      "items": [
+        {
+          "c": "80031",
+          "n": "香草冰淇淋",
+          "p": 7,
+          "img": "",
+          "t": [
+            "ice"
+          ],
+          "family": "dessert",
+          "combo": false
+        },
+        {
+          "c": "80032",
+          "n": "巧克力冰淇淋",
+          "p": 10,
+          "img": "",
+          "t": [
+            "ice"
+          ],
+          "family": "dessert",
+          "combo": false
+        },
+        {
+          "c": "80033",
+          "n": "温热苹果派",
+          "p": 11,
+          "img": "",
+          "t": [],
+          "family": "dessert",
+          "combo": false
+        }
+      ]
+    },
+    {
+      "id": "yinpin",
+      "name": "饮料与咖啡",
+      "items": [
+        {
+          "c": "80051",
+          "n": "矿泉水",
+          "p": 5,
+          "img": "",
+          "t": [
+            "water"
+          ],
+          "family": "drink",
+          "combo": false
+        },
+        {
+          "c": "80052",
+          "n": "冰可乐",
+          "p": 8,
+          "img": "assets/photography/cola.webp",
+          "t": [
+            "cola"
+          ],
+          "family": "drink",
+          "combo": false
+        },
+        {
+          "c": "80053",
+          "n": "大杯可乐",
+          "p": 11,
+          "img": "assets/photography/cola.webp",
+          "t": [
+            "cola"
+          ],
+          "family": "drink",
+          "combo": false
+        },
+        {
+          "c": "80054",
+          "n": "黑咖啡",
+          "p": 14,
+          "img": "",
+          "t": [
+            "coffee"
+          ],
+          "family": "drink",
+          "combo": false
+        },
+        {
+          "c": "80055",
+          "n": "橙味果汁",
+          "p": 9,
+          "img": "",
+          "t": [],
+          "family": "drink",
+          "combo": false
+        }
+      ]
+    }
+  ]
+}

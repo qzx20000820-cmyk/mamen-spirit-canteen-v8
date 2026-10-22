@@ -1,0 +1,431 @@
+{
+  "81001": {
+    "rounds": [
+      {
+        "name": "挑一个汉堡",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80003",
+            "name": "双层牛肉汉堡",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/double-beef-burger.webp"
+          },
+          {
+            "code": "80001",
+            "name": "家常牛肉汉堡",
+            "diff": -5,
+            "isDefault": false,
+            "image": "assets/photography/beef-burger.webp"
+          },
+          {
+            "code": "80004",
+            "name": "鱼排汉堡",
+            "diff": -3,
+            "isDefault": false,
+            "image": ""
+          },
+          {
+            "code": "80007",
+            "name": "芝士脆鸡汉堡",
+            "diff": 1,
+            "isDefault": false,
+            "image": "assets/photography/cheese-chicken-burger.webp"
+          }
+        ]
+      },
+      {
+        "name": "搭配小食",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80021",
+            "name": "中份薯条",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/fries.webp"
+          },
+          {
+            "code": "80011",
+            "name": "香脆鸡块",
+            "diff": 2,
+            "isDefault": false,
+            "image": "assets/photography/chicken-nuggets.webp"
+          },
+          {
+            "code": "80022",
+            "name": "大份薯条",
+            "diff": 3,
+            "isDefault": false,
+            "image": "assets/photography/fries.webp"
+          },
+          {
+            "code": "80042",
+            "name": "玉米杯",
+            "diff": -2,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      },
+      {
+        "name": "搭配饮料",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80052",
+            "name": "冰可乐",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/cola.webp"
+          },
+          {
+            "code": "80051",
+            "name": "矿泉水",
+            "diff": -2,
+            "isDefault": false,
+            "image": ""
+          },
+          {
+            "code": "80054",
+            "name": "黑咖啡",
+            "diff": 4,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      }
+    ],
+    "image": "assets/photography/double-beef-burger.webp",
+    "desc": "本套餐由游戏独立设计；图片只示意所选主食，搭配与金额均为游戏设定，不对应任何品牌在售套餐。"
+  },
+  "81002": {
+    "rounds": [
+      {
+        "name": "挑一个鸡肉堡",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80002",
+            "name": "脆皮鸡肉汉堡",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/chicken-burger.webp"
+          },
+          {
+            "code": "80007",
+            "name": "芝士脆鸡汉堡",
+            "diff": 3,
+            "isDefault": false,
+            "image": "assets/photography/cheese-chicken-burger.webp"
+          },
+          {
+            "code": "80005",
+            "name": "香烤鸡肉汉堡",
+            "diff": 2,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      },
+      {
+        "name": "选择配餐",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80011",
+            "name": "香脆鸡块",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/chicken-nuggets.webp"
+          },
+          {
+            "code": "80021",
+            "name": "中份薯条",
+            "diff": -1,
+            "isDefault": false,
+            "image": "assets/photography/fries.webp"
+          },
+          {
+            "code": "80041",
+            "name": "苹果片",
+            "diff": -4,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      },
+      {
+        "name": "选择饮料",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80055",
+            "name": "橙味果汁",
+            "diff": 0,
+            "isDefault": true,
+            "image": ""
+          },
+          {
+            "code": "80052",
+            "name": "冰可乐",
+            "diff": -1,
+            "isDefault": false,
+            "image": "assets/photography/cola.webp"
+          },
+          {
+            "code": "80051",
+            "name": "矿泉水",
+            "diff": -3,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      }
+    ],
+    "image": "assets/photography/chicken-burger.webp",
+    "desc": "本套餐由游戏独立设计；图片只示意所选主食，搭配与金额均为游戏设定，不对应任何品牌在售套餐。"
+  },
+  "81003": {
+    "rounds": [
+      {
+        "name": "两份主食",
+        "qty": 2,
+        "choices": [
+          {
+            "code": "80001",
+            "name": "家常牛肉汉堡",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/beef-burger.webp"
+          },
+          {
+            "code": "80002",
+            "name": "脆皮鸡肉汉堡",
+            "diff": 2,
+            "isDefault": false,
+            "image": "assets/photography/chicken-burger.webp"
+          },
+          {
+            "code": "80004",
+            "name": "鱼排汉堡",
+            "diff": 3,
+            "isDefault": false,
+            "image": ""
+          },
+          {
+            "code": "80007",
+            "name": "芝士脆鸡汉堡",
+            "diff": 5,
+            "isDefault": false,
+            "image": "assets/photography/cheese-chicken-burger.webp"
+          }
+        ]
+      },
+      {
+        "name": "两份小食",
+        "qty": 2,
+        "choices": [
+          {
+            "code": "80021",
+            "name": "中份薯条",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/fries.webp"
+          },
+          {
+            "code": "80042",
+            "name": "玉米杯",
+            "diff": -3,
+            "isDefault": false,
+            "image": ""
+          },
+          {
+            "code": "80011",
+            "name": "香脆鸡块",
+            "diff": 2,
+            "isDefault": false,
+            "image": "assets/photography/chicken-nuggets.webp"
+          }
+        ]
+      },
+      {
+        "name": "两杯饮料",
+        "qty": 2,
+        "choices": [
+          {
+            "code": "80052",
+            "name": "冰可乐",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/cola.webp"
+          },
+          {
+            "code": "80051",
+            "name": "矿泉水",
+            "diff": -2,
+            "isDefault": false,
+            "image": ""
+          },
+          {
+            "code": "80055",
+            "name": "橙味果汁",
+            "diff": 1,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      }
+    ],
+    "image": "assets/photography/beef-burger.webp",
+    "desc": "本套餐由游戏独立设计；图片只示意所选主食，搭配与金额均为游戏设定，不对应任何品牌在售套餐。"
+  },
+  "81004": {
+    "rounds": [
+      {
+        "name": "挑两份小食",
+        "qty": 2,
+        "choices": [
+          {
+            "code": "80011",
+            "name": "香脆鸡块",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/chicken-nuggets.webp"
+          },
+          {
+            "code": "80021",
+            "name": "中份薯条",
+            "diff": -1,
+            "isDefault": false,
+            "image": "assets/photography/fries.webp"
+          },
+          {
+            "code": "80042",
+            "name": "玉米杯",
+            "diff": -3,
+            "isDefault": false,
+            "image": ""
+          },
+          {
+            "code": "80015",
+            "name": "鸡块薯饼拼盒",
+            "diff": 5,
+            "isDefault": false,
+            "image": "assets/photography/snack-duo.webp"
+          }
+        ]
+      },
+      {
+        "name": "搭一杯饮料",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80051",
+            "name": "矿泉水",
+            "diff": 0,
+            "isDefault": true,
+            "image": ""
+          },
+          {
+            "code": "80052",
+            "name": "冰可乐",
+            "diff": 2,
+            "isDefault": false,
+            "image": "assets/photography/cola.webp"
+          },
+          {
+            "code": "80055",
+            "name": "橙味果汁",
+            "diff": 3,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      }
+    ],
+    "image": "assets/photography/chicken-nuggets.webp",
+    "desc": "本套餐由游戏独立设计；图片只示意所选主食，搭配与金额均为游戏设定，不对应任何品牌在售套餐。"
+  },
+  "81005": {
+    "rounds": [
+      {
+        "name": "早餐主食",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80006",
+            "name": "猪肉蛋松饼堡",
+            "diff": 0,
+            "isDefault": true,
+            "image": "assets/photography/breakfast-muffin.webp"
+          },
+          {
+            "code": "80001",
+            "name": "家常牛肉汉堡",
+            "diff": 1,
+            "isDefault": false,
+            "image": "assets/photography/beef-burger.webp"
+          }
+        ]
+      },
+      {
+        "name": "早餐搭配",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80041",
+            "name": "苹果片",
+            "diff": 0,
+            "isDefault": true,
+            "image": ""
+          },
+          {
+            "code": "80042",
+            "name": "玉米杯",
+            "diff": 2,
+            "isDefault": false,
+            "image": ""
+          },
+          {
+            "code": "80023",
+            "name": "土豆小饼",
+            "diff": 3,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      },
+      {
+        "name": "早餐饮料",
+        "qty": 1,
+        "choices": [
+          {
+            "code": "80054",
+            "name": "黑咖啡",
+            "diff": 0,
+            "isDefault": true,
+            "image": ""
+          },
+          {
+            "code": "80051",
+            "name": "矿泉水",
+            "diff": -5,
+            "isDefault": false,
+            "image": ""
+          },
+          {
+            "code": "80055",
+            "name": "橙味果汁",
+            "diff": -2,
+            "isDefault": false,
+            "image": ""
+          }
+        ]
+      }
+    ],
+    "image": "assets/photography/breakfast-muffin.webp",
+    "desc": "本套餐由游戏独立设计；图片只示意所选主食，搭配与金额均为游戏设定，不对应任何品牌在售套餐。"
+  }
+}

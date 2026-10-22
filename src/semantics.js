@@ -1,0 +1,11 @@
+import {foods} from './catalog.js';
+export const tagsFor=id=>foods.get(String(id))?.tags||[];
+export const hasTag=(item,tag)=>tagsFor(item.code??item.id).includes(tag);
+export const quantity=(ctx,tag)=>ctx.components.filter(x=>hasTag(x,tag)).reduce((n,x)=>n+x.count,0);
+export const distinct=(ctx,tag)=>new Set(ctx.components.filter(x=>hasTag(x,tag)&&x.count>0).map(x=>String(x.code))).size;
+export const only=(ctx,tag)=>ctx.components.length>0&&ctx.components.every(x=>hasTag(x,tag));
+export const isFish=x=>hasTag(x,'fish');
+export const isBeef=x=>hasTag(x,'beef');
+export const isCorn=x=>hasTag(x,'corn');
+export const foodFamily=x=>foods.get(String(x.code??x.id))?.family||null;
+export const families=ctx=>[...new Set(ctx.components.filter(x=>x.count>0).map(foodFamily).filter(Boolean))];

@@ -1,0 +1,228 @@
+{
+  "originalGenerationDate": "2026-10-21",
+  "approvedByUser": true,
+  "sourceReferences": [],
+  "records": [
+    {
+      "id": "beef-burger",
+      "label": "单层牛肉汉堡",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Asset type: a single food product cutout for a mobile ordering menu, not a poster. Create an ORIGINAL, photorealistic commercial food photograph. This is newly generated generic food, not an existing chain's product. Absolutely no input reference photograph and no reproduction of any specific ad composition. Medium: realistic camera photograph, not illustration, not vector, not CGI or plastic render. Studio food photography, 85mm lens appearance, three-quarter frontal view, soft large key light from upper left, gentle rim light, crisp appetizing natural microtextures, realistic specular highlights, moderate depth of field with the entire food clearly resolved. True transparent background and subtle natural contact shadow, no white rectangle, no checkerboard baked into the image. One centered subject, all edges fully visible, fills about 85% of square canvas, generous clean margin. No text, typography, logo, watermark, brand markings, branded containers, hands, people, decorative props or garnishes outside the food. Subject: exactly ONE single-patty beef cheeseburger. An organically domed toasted sesame bun with fine wrinkles and uneven scattered sesame seeds, one visibly chargrilled beef patty with rough browned edges, a thin slice of melting cheddar, a few tomato slices, crisp green lettuce and sliced pickle. Clearly one beef patty only, medium realistic thickness, with visible deep-brown beef texture distinct from breaded chicken. Front-left viewpoint, rustic natural assembly, no overly perfect symmetry. No wrappers, box or plate.",
+      "rightsBasis": "AI-generated output, subject to applicable OpenAI terms and law; not a stock-photo or official-brand license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/",
+      "created": "2026-10-21",
+      "sha256": "32559c89236485a1f86d3e4719e7beedf004305422dbcb60e75153a4b62af14e",
+      "originalSha256": "67c5980b0b566630f9982028e77bcde13819cb6e9b735db0679c5576cdb0549e",
+      "path": "assets/photography/beef-burger.webp",
+      "bytes": 225484,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "Original approved PNG -> WebP, max 768px, quality 90; no generative edits",
+      "rightsReview": "AI output terms; no official asset license implied"
+    },
+    {
+      "id": "chicken-burger",
+      "label": "鸡肉汉堡",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Asset type: a single food product cutout for a mobile ordering menu, not a poster. Create an ORIGINAL, photorealistic commercial food photograph. This is newly generated generic food, not an existing chain's product. Absolutely no input reference photograph and no reproduction of any specific ad composition. Medium: realistic camera photograph, not illustration, not vector, not CGI or plastic render. Studio food photography, 85mm lens appearance, three-quarter frontal view, soft large key light from upper left, gentle rim light, crisp appetizing natural microtextures, realistic specular highlights, moderate depth of field with the entire food clearly resolved. True transparent background and subtle natural contact shadow, no white rectangle, no checkerboard baked into the image. One centered subject, all edges fully visible, fills about 85% of square canvas, generous clean margin. No text, typography, logo, watermark, brand markings, branded containers, hands, people, decorative props or garnishes outside the food. Subject: exactly ONE crispy chicken sandwich, unmistakably different from a beef burger. Tall rough craggy golden breaded whole chicken fillet extending unevenly beyond a smooth glossy plain brioche bun WITHOUT sesame seeds, shredded pale-green cabbage and a little creamy sauce. Chicken crust has tiny fried flakes, nooks and ridges, slight natural oil sheen and rich amber highlights. One chicken fillet only; no beef, no cheese, no tomato. Front-right viewpoint, natural generous proportions, no wrappers, box or plate.",
+      "rightsBasis": "AI-generated output, subject to applicable OpenAI terms and law; not a stock-photo or official-brand license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/",
+      "created": "2026-10-21",
+      "sha256": "ed5c1a2bc6624c75175ea1d833a86beb082c607c517a98e24e09c8f74dce6b71",
+      "originalSha256": "000c88fd3eef57303e4c4ab6ee3cf7ac21099b7762f22fe58d8cc7c5758068c8",
+      "path": "assets/photography/chicken-burger.webp",
+      "bytes": 199816,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "Original approved PNG -> WebP, max 768px, quality 90; no generative edits",
+      "rightsReview": "AI output terms; no official asset license implied"
+    },
+    {
+      "id": "chicken-nuggets",
+      "label": "炸鸡块",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Asset type: a single food product cutout for a mobile ordering menu, not a poster. Create an ORIGINAL, photorealistic commercial food photograph. This is newly generated generic food, not an existing chain's product. Absolutely no input reference photograph and no reproduction of any specific ad composition. Medium: realistic camera photograph, not illustration, not vector, not CGI or plastic render. Studio food photography, 85mm lens appearance, three-quarter frontal view, soft large key light from upper left, gentle rim light, crisp appetizing natural microtextures, realistic specular highlights, moderate depth of field with the entire food clearly resolved. True transparent background and subtle natural contact shadow, no white rectangle, no checkerboard baked into the image. One centered subject, all edges fully visible, fills about 85% of square canvas, generous clean margin. No text, typography, logo, watermark, brand markings, branded containers, hands, people, decorative props or garnishes outside the food. Subject: seven boneless golden battered chicken nuggets, generic irregular rounded nugget shapes, arranged in a compact low overlapping mound. Not drumsticks, not wings, not fries. Honey-golden lightly blistered batter with very fine granular fried texture, natural irregular edges, warm amber color variation. One nugget leaning upright reveals a ragged broken edge and genuine-looking white chicken interior. Detailed crisp crumbs close to the nuggets only. No plate, paper, bucket, packaging, sauce cup or other food.",
+      "rightsBasis": "AI-generated output, subject to applicable OpenAI terms and law; not a stock-photo or official-brand license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/",
+      "created": "2026-10-21",
+      "sha256": "8aa88be056c457811a028ce91693917f593e0ad4dd66b0491db4d88c9cb57bf5",
+      "originalSha256": "e17c11b9490eb528fe5e3ffa1024ecfaaee99d08211227aa26435c2b5edb8d78",
+      "path": "assets/photography/chicken-nuggets.webp",
+      "bytes": 190484,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "Original approved PNG -> WebP, max 768px, quality 90; no generative edits",
+      "rightsReview": "AI output terms; no official asset license implied"
+    },
+    {
+      "id": "fries",
+      "label": "薯条",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Asset type: a single food product cutout for a mobile ordering menu, not a poster. Create an ORIGINAL, photorealistic commercial food photograph. This is newly generated generic food, not an existing chain's product. Absolutely no input reference photograph and no reproduction of any specific ad composition. Medium: realistic camera photograph, not illustration, not vector, not CGI or plastic render. Studio food photography, 85mm lens appearance, three-quarter frontal view, soft large key light from upper left, gentle rim light, crisp appetizing natural microtextures, realistic specular highlights, moderate depth of field with the entire food clearly resolved. True transparent background and subtle natural contact shadow, no white rectangle, no checkerboard baked into the image. One centered subject, all edges fully visible, fills about 85% of square canvas, generous clean margin. No text, typography, logo, watermark, brand markings, branded containers, hands, people, decorative props or garnishes outside the food. Subject: a generous portion of slender straight-cut potato French fries in a small plain unprinted natural kraft paper pouch. Every fry has realistic pale-golden starchy texture, deeper golden edges, light salt crystals and slight oil sheen, some gently bent. Three loose fries rest naturally directly beside the pouch. Pouch is matte tan kraft paper, open straight simple rim, no colored printing, emblem, letter, arches or recognizable chain packaging. Tall upright composition with full pouch and fry tips visible. No sauce, plate or other food.",
+      "rightsBasis": "AI-generated output, subject to applicable OpenAI terms and law; not a stock-photo or official-brand license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/",
+      "created": "2026-10-21",
+      "sha256": "71fe4d8bfc5a9e44447f3869c775fdf333c58324bf77c8f946abce22467d940d",
+      "originalSha256": "3ca134e1d6409d7754930e819b8219f08ebb4534054313991f7494a3e11045c3",
+      "path": "assets/photography/fries.webp",
+      "bytes": 147916,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "Original approved PNG -> WebP, max 768px, quality 90; no generative edits",
+      "rightsReview": "AI output terms; no official asset license implied"
+    },
+    {
+      "id": "cola",
+      "label": "可乐",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Asset type: a single food product cutout for a mobile ordering menu, not a poster. Create an ORIGINAL, photorealistic commercial food photograph. This is newly generated generic food, not an existing chain's product. Absolutely no input reference photograph and no reproduction of any specific ad composition. Medium: realistic camera photograph, not illustration, not vector, not CGI or plastic render. Studio food photography, 85mm lens appearance, three-quarter frontal view, soft large key light from upper left, gentle rim light, crisp appetizing natural microtextures, realistic specular highlights, moderate depth of field with the entire food clearly resolved. True transparent background and subtle natural contact shadow, no white rectangle, no checkerboard baked into the image. One centered subject, all edges fully visible, fills about 85% of square canvas, generous clean margin. No text, typography, logo, watermark, brand markings, branded containers, hands, people, decorative props or garnishes outside the food. Subject: a single clear straight-sided glass tumbler filled with dark brown cola, realistic translucent amber edges, irregular clear ice cubes above the liquid, fine rising carbonation bubbles, subtle condensation droplets and tiny water beads on the glass. No straw, lemon, label or decorative garnish. Glass has a simple unbranded cylindrical silhouette, physically realistic refraction and a visible base. Tall upright full glass, dark cola clearly readable against transparency. No bottle, branded can, paper cup, logo or text.",
+      "rightsBasis": "AI-generated output, subject to applicable OpenAI terms and law; not a stock-photo or official-brand license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/",
+      "created": "2026-10-21",
+      "sha256": "c20e8ea526ca4aecb77705d0fe1e095bbe2a45d5932fd44fda0c71539d75d9a9",
+      "originalSha256": "9624a975f0cf659312943ee4fc3375233d3b6fa2a0945847ee92cac6445c6a75",
+      "path": "assets/photography/cola.webp",
+      "bytes": 181518,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "Original approved PNG -> WebP, max 768px, quality 90; no generative edits",
+      "rightsReview": "AI output terms; no official asset license implied"
+    },
+    {
+      "id": "burger-meal",
+      "label": "汉堡＋薯条＋饮料套餐",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Asset type: a single food product cutout for a mobile ordering menu, not a poster. Create an ORIGINAL, photorealistic commercial food photograph. This is newly generated generic food, not an existing chain's product. Absolutely no input reference photograph and no reproduction of any specific ad composition. Medium: realistic camera photograph, not illustration, not vector, not CGI or plastic render. Studio food photography, 85mm lens appearance, three-quarter frontal view, soft large key light from upper left, gentle rim light, crisp appetizing natural microtextures, realistic specular highlights, moderate depth of field with the entire food clearly resolved. True transparent background and subtle natural contact shadow, no white rectangle, no checkerboard baked into the image. One centered subject, all edges fully visible, fills about 85% of square canvas, generous clean margin. No text, typography, logo, watermark, brand markings, branded containers, hands, people, decorative props or garnishes outside the food. Subject: a compact generic complete meal with exactly three items: one single-patty beef burger in the foreground, a portion of golden fries in a plain unprinted tan kraft pouch behind to its left, and one simple clear cylindrical glass of dark cola with ice behind to its right. Beef burger has a toasted sesame bun, exactly one chargrilled beef patty, one cheddar slice, tomato and green lettuce. All three foods distinct and fully visible, food occupies the frame without excessive space, believable relative scale. Arrange in an original compact shallow triangle with imperfect natural overlaps, unobstructed food texture; no special effects. Plain kraft only, no red or yellow printing, no arches, branded packaging, tray, plate, extra food or props.",
+      "rightsBasis": "AI-generated output, subject to applicable OpenAI terms and law; not a stock-photo or official-brand license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/",
+      "created": "2026-10-21",
+      "sha256": "e69d5ace5025d91b3784937195ea40c371bfb24906671d5fd2bd1de3a738ec8c",
+      "originalSha256": "e2601c86c5e89828b8053fce593f7b611ccba4c59146547537394733f2f42418",
+      "path": "assets/photography/burger-meal.webp",
+      "bytes": 236274,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "Original approved PNG -> WebP, max 768px, quality 90; no generative edits",
+      "rightsReview": "AI output terms; no official asset license implied"
+    },
+    {
+      "id": "snack-duo",
+      "label": "鸡块薯饼双拼",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Create ONE original photorealistic studio food photograph cutout for a mobile ordering menu, not an ad or poster. True transparent background with subtle natural contact shadow. Square canvas, whole subject centered with a clean 10% margin, three-quarter frontal viewpoint, 85mm lens appearance, soft warm upper-left key light, gentle rim light, crisp natural microtextures, appetizing realistic specular highlights. Match a high-quality generic fast-food menu photography series. Absolutely not an illustration, vector, pixel art, toy or plastic CGI. No brands, logos, letters, numbers, watermark, official product packaging, printed containers, hands, people, decorative props, existing advertisements or chain-specific compositions. Do not imitate a particular brand. All food edges fully visible. Subject: a small generic mixed pile of two clearly distinguishable foods: irregular golden battered chicken nuggets with fine crispy texture, and round flattened mini potato hash-brown bites with coarse shredded-potato texture. A few pieces of each, naturally arranged on the transparent surface, without container, without sauce. Do not make heart shapes. This is an unbranded food-type illustration, not a claim about serving count.",
+      "created": "2026-10-22",
+      "originalGeneratedFile": "exec-c5ea2cb3-f515-455a-9fec-cb7f287fe9cc.png",
+      "originalSha256": "3f40f8e75c03ec574414f6e037591fbb3e1152acbefbd60215c415a5ef2ec681",
+      "path": "assets/photography/snack-duo.webp",
+      "sha256": "701126a39fad59e11a0bde420f29c947e8323c5a40a6438e55e9943a68c45113",
+      "bytes": 175292,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "PNG to WebP, max 768px, quality90, alpha preserved; no content edits",
+      "rightsBasis": "Original AI output subject to OpenAI output terms and applicable law; not an official product image license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+      "id": "cheese-chicken-burger",
+      "label": "芝士脆鸡堡",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Create ONE original photorealistic studio food photograph cutout for a mobile ordering menu, not an ad or poster. True transparent background with subtle natural contact shadow. Square canvas, whole subject centered with a clean 10% margin, three-quarter frontal viewpoint, 85mm lens appearance, soft warm upper-left key light, gentle rim light, crisp natural microtextures, appetizing realistic specular highlights. Match a high-quality generic fast-food menu photography series. Absolutely not an illustration, vector, pixel art, toy or plastic CGI. No brands, logos, letters, numbers, watermark, official product packaging, printed containers, hands, people, decorative props, existing advertisements or chain-specific compositions. Do not imitate a particular brand. All food edges fully visible. Subject: ONE single-fillet crispy chicken cheeseburger. Smooth glossy plain brioche bun without sesame, one tall uneven crunchy golden breaded whole chicken fillet, one visible thin slice of melting cheddar, crisp pale-green shredded cabbage and a little creamy sauce. Clearly a chicken cheeseburger, not beef, not a double patty. Natural appetizing assembly and craggy fried texture. No wrappers, plate, box, fries or drink.",
+      "created": "2026-10-22",
+      "originalGeneratedFile": "exec-741f2b99-f905-4611-b0d1-9850bb110f26.png",
+      "originalSha256": "64a2c2b9c2a4304be74fbc424e90a54e5d9d1ae4207bd83dec93c57e2a10fc25",
+      "path": "assets/photography/cheese-chicken-burger.webp",
+      "sha256": "99287222359185e07d0395e7f93dfce79266a5f07d07caa2443f28944f75685e",
+      "bytes": 201370,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "PNG to WebP, max 768px, quality90, alpha preserved; no content edits",
+      "rightsBasis": "Original AI output subject to OpenAI output terms and applicable law; not an official product image license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+      "id": "breakfast-muffin",
+      "label": "猪肉蛋松饼堡",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Create ONE original photorealistic studio food photograph cutout for a mobile ordering menu, not an ad or poster. True transparent background with subtle natural contact shadow. Square canvas, whole subject centered with a clean 10% margin, three-quarter frontal viewpoint, 85mm lens appearance, soft warm upper-left key light, gentle rim light, crisp natural microtextures, appetizing realistic specular highlights. Match a high-quality generic fast-food menu photography series. Absolutely not an illustration, vector, pixel art, toy or plastic CGI. No brands, logos, letters, numbers, watermark, official product packaging, printed containers, hands, people, decorative props, existing advertisements or chain-specific compositions. Do not imitate a particular brand. All food edges fully visible. Subject: ONE breakfast sandwich made from a toasted English muffin with a rough flour-dusted surface and porous toasted edges, one round browned pork sausage patty and one fried egg with fully cooked white and visible golden yolk. ONLY muffin, pork patty and egg, no cheese and no vegetables. Clearly distinct from a glossy hamburger bun. No plate, wrapper, sides, drink or packaging.",
+      "created": "2026-10-22",
+      "originalGeneratedFile": "exec-4ab49e96-445a-491b-8f31-3685dda77e67.png",
+      "originalSha256": "e6da5f27493da50eb718b6b90835b25ca6712d862a0063363b8b76407740a2ef",
+      "path": "assets/photography/breakfast-muffin.webp",
+      "sha256": "d34bc254fd62a8216f0239b9bab73a0768a0aad76d2888d4359ad37f306fa7ee",
+      "bytes": 225164,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "PNG to WebP, max 768px, quality90, alpha preserved; no content edits",
+      "rightsBasis": "Original AI output subject to OpenAI output terms and applicable law; not an official product image license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+      "id": "sauced-chicken",
+      "label": "蘸酱炸鸡",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Create ONE original photorealistic studio food photograph cutout for a mobile ordering menu, not an ad or poster. True transparent background with subtle natural contact shadow. Square canvas, whole subject centered with a clean 10% margin, three-quarter frontal viewpoint, 85mm lens appearance, soft warm upper-left key light, gentle rim light, crisp natural microtextures, appetizing realistic specular highlights. Match a high-quality generic fast-food menu photography series. Absolutely not an illustration, vector, pixel art, toy or plastic CGI. No brands, logos, letters, numbers, watermark, official product packaging, printed containers, hands, people, decorative props, existing advertisements or chain-specific compositions. Do not imitate a particular brand. All food edges fully visible. Subject: generic crispy boneless chicken strips, with one strip held resting at an angle to reveal white chicken fibers at its broken edge. Coarse golden fried crumb and realistic tiny oil highlights. Beside the strips, a small plain white ceramic dipping bowl of smooth pale-golden sauce with a little sauce coating one tip. No hand. No text, no brand, no fries or drink. Compact natural composition, both the chicken and bowl fully visible.",
+      "created": "2026-10-22",
+      "originalGeneratedFile": "exec-9daac4e2-2f88-4dbc-af38-c5a1feed0973.png",
+      "originalSha256": "f11fa090f61eb828364bf5509c5ea98e0676d2724fd1257a05507998c67cfbc7",
+      "path": "assets/photography/sauced-chicken.webp",
+      "sha256": "533893bdce48f2749407ca7ccd84aa37461809e989dd1227034e8e1e9002631a",
+      "bytes": 153240,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "PNG to WebP, max 768px, quality90, alpha preserved; no content edits",
+      "rightsBasis": "Original AI output subject to OpenAI output terms and applicable law; not an official product image license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+      "id": "double-beef-burger",
+      "label": "双层牛肉芝士堡",
+      "generationTool": "built-in image_gen",
+      "inputImages": [],
+      "prompt": "Use case: product-mockup. Create ONE original photorealistic studio food photograph cutout for a mobile ordering menu, not an ad or poster. True transparent background with subtle natural contact shadow. Square canvas, whole subject centered with a clean 10% margin, three-quarter frontal viewpoint, 85mm lens appearance, soft warm upper-left key light, gentle rim light, crisp natural microtextures, appetizing realistic specular highlights. Match a high-quality generic fast-food menu photography series. Absolutely not an illustration, vector, pixel art, toy or plastic CGI. No brands, logos, letters, numbers, watermark, official product packaging, printed containers, hands, people, decorative props, existing advertisements or chain-specific compositions. Do not imitate a particular brand. All food edges fully visible. Subject: ONE generic double beef cheeseburger with EXACTLY TWO visible browned chargrilled beef patties, two thin slices of melting cheddar, a few crisp lettuce leaves, sliced pickle and tomato, contained in a single ordinary sesame bun with top and bottom only. Clearly two separate beef patties visible from the front. No middle bread layer, no brand-specific arrangement, no bacon, no chicken. Natural irregular assembly, realistic meat edges and toasted sesame texture. No plate, wrapping, sides or drink.",
+      "created": "2026-10-22",
+      "originalGeneratedFile": "exec-95c5e2be-9f02-423a-acbf-73983ab703c9.png",
+      "originalSha256": "ae2818f981d01abe8634ac5482f5b76d8f006421ce39e7663df1fb5e1bed2a8f",
+      "path": "assets/photography/double-beef-burger.webp",
+      "sha256": "1efe5728e327bc4ed7fc219fedfc06385c354b4d902a2a299fc063c79f6ee5cc",
+      "bytes": 236802,
+      "dimensions": [
+        768,
+        768
+      ],
+      "conversion": "PNG to WebP, max 768px, quality90, alpha preserved; no content edits",
+      "rightsBasis": "Original AI output subject to OpenAI output terms and applicable law; not an official product image license",
+      "termsUrl": "https://openai.com/policies/terms-of-use/"
+    }
+  ],
+  "displayPolicy": "Food-type or main-item photography only; no unknown meal composition implied. Original six retained unchanged."
+}

@@ -1,0 +1,114 @@
+{
+  "module": "developer-local-real-menu-explorer",
+  "verifiedOn": "2026-10-22",
+  "officialServer": "https://mcp.mcd.cn",
+  "protocol": "Streamable HTTP via official MCP SDK",
+  "actualQueryMealsAttempts": 2,
+  "actualQueryMealsBusinessSuccesses": 2,
+  "completedAnalysisRuns": 1,
+  "lastEndToEndResult": "SUCCESS",
+  "offlineTestsAreRealCallEvidence": false,
+  "rawOfficialMenuIncluded": false,
+  "tokenOrPersonalDataIncluded": false,
+  "h5CatalogChanged": false,
+  "publicUploaded": false,
+  "runs": [
+    {
+      "module": "mamen-local-menu-explorer",
+      "sdk": "@modelcontextprotocol/sdk@1.32.1",
+      "liveAttempt": true,
+      "startedAt": "2026-10-22T10:03:36.506Z",
+      "finishedAt": "2026-10-22T10:03:45.082Z",
+      "result": "FAILED",
+      "phase": "analysis",
+      "phases": {
+        "initialization": "COMPLETED",
+        "toolDiscovery": "COMPLETED",
+        "businessQuery": "COMPLETED",
+        "analysis": "FAILED"
+      },
+      "http": [
+        {
+          "method": "POST",
+          "rpc": "initialize",
+          "httpStatus": 200
+        },
+        {
+          "method": "POST",
+          "rpc": "notifications/initialized",
+          "httpStatus": 202
+        },
+        {
+          "method": "GET",
+          "rpc": "optional-server-stream",
+          "httpStatus": 405
+        },
+        {
+          "method": "POST",
+          "rpc": "tools/list",
+          "httpStatus": 200
+        },
+        {
+          "method": "POST",
+          "rpc": "tools/call",
+          "httpStatus": 200
+        }
+      ],
+      "toolAttempts": 1,
+      "toolSuccesses": 1,
+      "gameDataModified": false,
+      "rawResponseSaved": false,
+      "bearerPrefixCount": 1,
+      "error": "UNSUPPORTED_ITEM_NAME",
+      "evidenceSha256": "cc88f418defda078a15c30411221b9fc57122a95ec75becc6577e437f5b07697"
+    },
+    {
+      "module": "mamen-local-menu-explorer",
+      "sdk": "@modelcontextprotocol/sdk@1.32.1",
+      "liveAttempt": true,
+      "startedAt": "2026-10-22T10:12:27.377Z",
+      "finishedAt": "2026-10-22T10:12:38.578Z",
+      "result": "SUCCESS",
+      "phase": "completed",
+      "phases": {
+        "initialization": "COMPLETED",
+        "toolDiscovery": "COMPLETED",
+        "businessQuery": "COMPLETED",
+        "analysis": "COMPLETED"
+      },
+      "http": [
+        {
+          "method": "POST",
+          "rpc": "initialize",
+          "httpStatus": 200
+        },
+        {
+          "method": "POST",
+          "rpc": "notifications/initialized",
+          "httpStatus": 202
+        },
+        {
+          "method": "GET",
+          "rpc": "optional-server-stream",
+          "httpStatus": 405
+        },
+        {
+          "method": "POST",
+          "rpc": "tools/list",
+          "httpStatus": 200
+        },
+        {
+          "method": "POST",
+          "rpc": "tools/call",
+          "httpStatus": 200
+        }
+      ],
+      "toolAttempts": 1,
+      "toolSuccesses": 1,
+      "gameDataModified": false,
+      "rawResponseSaved": false,
+      "bearerPrefixCount": 1,
+      "evidenceSha256": "d85f97bd6e02a6be386ab9ad1c6b803637c06d630b6e73c22fc0e35685360262"
+    }
+  ]
+}

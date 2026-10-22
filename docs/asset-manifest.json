@@ -1,0 +1,82 @@
+{
+  "version": "8.1.0-rc.1",
+  "assets": [
+    {
+      "path": "assets/photography/beef-burger.webp",
+      "sha256": "32559c89236485a1f86d3e4719e7beedf004305422dbcb60e75153a4b62af14e",
+      "bytes": 225484,
+      "source": "approved-original-imagegen-output",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/breakfast-muffin.webp",
+      "sha256": "d34bc254fd62a8216f0239b9bab73a0768a0aad76d2888d4359ad37f306fa7ee",
+      "bytes": 225164,
+      "source": "original-imagegen-output-a-direction",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/burger-meal.webp",
+      "sha256": "e69d5ace5025d91b3784937195ea40c371bfb24906671d5fd2bd1de3a738ec8c",
+      "bytes": 236274,
+      "source": "approved-original-imagegen-output",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/cheese-chicken-burger.webp",
+      "sha256": "99287222359185e07d0395e7f93dfce79266a5f07d07caa2443f28944f75685e",
+      "bytes": 201370,
+      "source": "original-imagegen-output-a-direction",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/chicken-burger.webp",
+      "sha256": "ed5c1a2bc6624c75175ea1d833a86beb082c607c517a98e24e09c8f74dce6b71",
+      "bytes": 199816,
+      "source": "approved-original-imagegen-output",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/chicken-nuggets.webp",
+      "sha256": "8aa88be056c457811a028ce91693917f593e0ad4dd66b0491db4d88c9cb57bf5",
+      "bytes": 190484,
+      "source": "approved-original-imagegen-output",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/cola.webp",
+      "sha256": "c20e8ea526ca4aecb77705d0fe1e095bbe2a45d5932fd44fda0c71539d75d9a9",
+      "bytes": 181518,
+      "source": "approved-original-imagegen-output",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/double-beef-burger.webp",
+      "sha256": "1efe5728e327bc4ed7fc219fedfc06385c354b4d902a2a299fc063c79f6ee5cc",
+      "bytes": 236802,
+      "source": "original-imagegen-output-a-direction",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/fries.webp",
+      "sha256": "71fe4d8bfc5a9e44447f3869c775fdf333c58324bf77c8f946abce22467d940d",
+      "bytes": 147916,
+      "source": "approved-original-imagegen-output",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/sauced-chicken.webp",
+      "sha256": "533893bdce48f2749407ca7ccd84aa37461809e989dd1227034e8e1e9002631a",
+      "bytes": 153240,
+      "source": "original-imagegen-output-a-direction",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    },
+    {
+      "path": "assets/photography/snack-duo.webp",
+      "sha256": "701126a39fad59e11a0bde420f29c947e8323c5a40a6438e55e9943a68c45113",
+      "bytes": 175292,
+      "source": "original-imagegen-output-a-direction",
+      "license": "licenses/FOOD-PHOTOGRAPHY.md"
+    }
+  ]
+}
