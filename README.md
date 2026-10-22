@@ -32,13 +32,13 @@ npm run release
 
 ## MCP与参赛限制
 
-早期WorkBuddy原型真实查询曾支持数据准备；当前公开版已移除全部返回菜单数据，玩家端没有运行时MCP调用。整改时V8新增成功调用为0；随后新增的开发者本地真实菜单探索器单独执行官方查询和分析，最新真实结果见docs/MENU_EXPLORER_STATUS.json。H5端仍不实时调用MCP，独立模拟数据不冒充官方结果。参赛资格仍由主办方核验，未声称报名或审核成功。见 MCP_INTEGRATION.md、workbuddy.md 和 docs/CONTEST_READINESS.md。
+早期WorkBuddy原型真实查询曾支持数据准备；当前公开版已移除全部返回菜单数据，玩家端没有运行时MCP调用。整改时V8新增成功调用为0；随后新增的开发者本地真实菜单探索器单独执行官方查询和分析，最新真实结果见docs/MENU_EXPLORER_STATUS.json。H5端仍不实时调用MCP，独立模拟数据不冒充官方结果。参赛资格及审核结果仍由主办方核验；报名Issue已创建，不代表审核通过。见 MCP_INTEGRATION.md、workbuddy.md 和 docs/CONTEST_READINESS.md。
 
 ## 许可与发布
 
 独立代码、游戏数据和原创文字采用MIT；AI摄影另见 licenses/FOOD-PHOTOGRAPHY.md 与生成记录，不宣称排他版权或真人实拍。系统字体不打包文件，开发依赖许可及NOTICE已保留。商标和第三方权利不纳入项目许可；非官方说明不等于品牌授权。详见 ASSET_SOURCES.md、docs/PUBLICATION_PREFLIGHT.md 与 docs/remediation-diff.csv。
 
-所有公开动作仍需作者逐项确认；当前未上传GitHub、未部署H5、未提交报名Issue。
+源码已公开至 https://github.com/qzx20000820-cmyk/mamen-spirit-canteen-v8 。作者确认参赛报名Issue #1060已创建；不代表主办方已审核通过。H5正在准备Netlify静态部署，尚无已核验的公网试玩地址；确定后补充真实链接。
 
 ## 开发者本地真实菜单探索器
 
