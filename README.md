@@ -1,3 +1,14 @@
+# 🍔 [立即在线试玩《麦门精神食堂》](https://clever-genie-e0bb72.netlify.app/)
+
+打开手机浏览器即可开始探索：看似正常地点餐，操作之间却可能解锁离谱的隐藏成就。
+
+- **31个原创模拟餐品**：搜索、加购、搭配套餐，自由调整购物车。
+- **37个隐藏成就**：通过组合与点餐行为探索，未解锁的秘密留给你发现。
+- **六档稀有度**：C / B / A / S / SR / SSR，收集你的成就图鉴。
+- **精神消费鉴定报告**：根据操作生成个人报告，并保存图片分享。
+
+⭐ 喜欢这个项目，可以点击仓库右上角的 **Star** 支持：[前往GitHub仓库](https://github.com/qzx20000820-cmyk/mamen-spirit-canteen-v8)。
+
 # 麦门精神食堂｜V8独立模拟菜单版
 
 面向手机浏览器的点餐主题隐藏成就游戏：搜索食品、选择自定义套餐、调整购物车、模拟结算，探索37个成就与C/B/A/S/SR/SSR六档收藏，生成精神消费鉴定报告。版本8.1.0-rc.1，2026-10-22。独立创作，非麦当劳官方产品，无真实扣款、配送、登录或个人信息上传。
@@ -32,13 +43,13 @@ npm run release
 
 ## MCP与参赛限制
 
-早期WorkBuddy原型真实查询曾支持数据准备；当前公开版已移除全部返回菜单数据，玩家端没有运行时MCP调用。整改时V8新增成功调用为0；随后新增的开发者本地真实菜单探索器单独执行官方查询和分析，最新真实结果见docs/MENU_EXPLORER_STATUS.json。H5端仍不实时调用MCP，独立模拟数据不冒充官方结果。参赛资格及审核结果仍由主办方核验；报名Issue已创建，不代表审核通过。见 MCP_INTEGRATION.md、workbuddy.md 和 docs/CONTEST_READINESS.md。
+早期WorkBuddy原型真实查询曾支持数据准备；当前公开版已移除全部返回菜单数据，玩家端没有运行时MCP调用。整改时V8新增成功调用为0；随后新增的开发者本地真实菜单探索器单独执行官方查询和分析，最新真实结果见docs/MENU_EXPLORER_STATUS.json。H5端仍不实时调用MCP，独立模拟数据不冒充官方结果。官方账号M-China-Official已在[报名Issue #1060](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1060#issuecomment-6342607217)回复“您的作品已成功参赛”；该回复不等于品牌或素材授权，亦不代表获奖。见 MCP_INTEGRATION.md、workbuddy.md 和 docs/CONTEST_READINESS.md。
 
 ## 许可与发布
 
 独立代码、游戏数据和原创文字采用MIT；AI摄影另见 licenses/FOOD-PHOTOGRAPHY.md 与生成记录，不宣称排他版权或真人实拍。系统字体不打包文件，开发依赖许可及NOTICE已保留。商标和第三方权利不纳入项目许可；非官方说明不等于品牌授权。详见 ASSET_SOURCES.md、docs/PUBLICATION_PREFLIGHT.md 与 docs/remediation-diff.csv。
 
-源码已公开至 https://github.com/qzx20000820-cmyk/mamen-spirit-canteen-v8 。作者确认参赛报名Issue #1060已创建；不代表主办方已审核通过。H5正在准备Netlify静态部署，尚无已核验的公网试玩地址；确定后补充真实链接。
+源码已公开至[GitHub仓库](https://github.com/qzx20000820-cmyk/mamen-spirit-canteen-v8)，H5已部署至[Netlify试玩地址](https://clever-genie-e0bb72.netlify.app/)。[官方Issue #1060已收到成功参赛回复](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1060#issuecomment-6342607217)。游戏仍为8.1.0-rc.1，H5使用原创模拟菜单，不依赖本机服务或玩家Token。
 
 ## 开发者本地真实菜单探索器
 
